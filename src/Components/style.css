@@ -1,16 +1,13 @@
-html {
-    --s: 50px;
-    --c: #191b22;
-    --_s: calc(2*var(--s)) calc(2*var(--s));
-    --_g: 35.36% 35.36% at;
-    --_c: #0000 66%,#20222a 68% 70%,#0000 72%;
-    background: 
-      radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
-      radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
-      radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
-      radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
-      repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
-      radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
-    background-attachment: fixed;
-  }
+body{
+  background-image:url(https://scontent-hou1-1.xx.fbcdn.net/v/t1.6435-9/119792624_109141474270205_8630478074216061388_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3mK0Uryxg7sAX_8kcVz&_nc_oc=AQlKr61wRT5JS56lJUkZdh-OcP8cnToDVNLCltV7XRdpHg3gnZFP7iqN2EUjMWdHX7FtR5lxMhSpqh_oKOOhIxsh&_nc_ht=scontent-hou1-1.xx&oh=00_AfAtOULGq-lGBjTT3dmqomdGRcZOFngiyAmOROGtHG87OA&oe=64FCFC29)
+}
+
+h1 {
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+span {
+  align-content: center;
+}
 
